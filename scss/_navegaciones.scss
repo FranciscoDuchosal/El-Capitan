@@ -1,0 +1,139 @@
+  /*HEADER*/
+  /*LOGO Y NOMBRE*/
+
+#inicio{
+    background-image: url(../multimedia500x400/wooden-long-platform-leading-to-the-beach-under-the-cloudy-sky.jpg);
+    background-size: cover;
+}
+.logo{
+    height: 100px;
+    display: flex;
+    align-items:center;
+    font-family: Stix Two Text;
+    color:rgb(96, 73, 224);
+}
+   
+    
+
+
+       /*LUPA*/
+.lupa{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0rem 4rem;
+}
+i.bi.bi-search{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+i.bi.bi-cart4{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+i.bi.bi-person-circle{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+/* NAV BAR*/
+
+nav{
+    background-color: #262626;
+    
+}
+.navbar-nav{
+    width: 100%;
+    justify-content: space-around;
+}
+
+#navbarDropdownMenuLink{
+     
+     font-size: 1.5rem;
+     color:white;
+}
+#navbarDropdownMenuLink:hover{
+     color: yellow;
+}
+.desplegable{
+    font-size: 1.5rem;
+    font-family: Stix two text;
+
+}
+
+ /*FOOTER*/
+
+ .footer__uno {
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 40px;
+    height: 200px;
+    margin-top: -55px;
+}
+footer{
+    background-color: #262626;
+    margin-top: 55px;
+} 
+
+footer li {
+    font-size: 2rem;
+    list-style: none;
+    color: #fff;
+    
+    
+}
+footer li p {
+    font-size: 1.5rem;
+    color: gray;
+}
+footer li p a {
+    font-size: 1.5rem;
+    color: gray;
+    text-decoration: none;
+}
+.arriba a {
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px 0px 124px;
+}
+.copyright p {
+    font-size: 1.5rem;
+    color:rgb(252, 245, 245);
+    margin: 0px 270px;
+}
+.copyright p a {
+    font-size: 1.5rem;
+    color:rgb(233, 230, 230);
+}
+
+
+.bi-facebook:hover{
+color:  #3b5998 ;
+
+}
+
+.bi-whatsapp:hover{
+color: #4AC959;
+}
+
+.bi-envelope:hover{
+color:white
+}
+
+.arriba a {
+font-size: 1.3rem;
+color: gray;
+text-decoration: none;
+margin: 0px 0px 0px 124px;
+}
+.copyright p {
+font-size: 1.5rem;
+color:white;
+margin: 0px 420px;
+}
+.copyright p a {
+font-size: 1.3rem;
+color:white;
+}

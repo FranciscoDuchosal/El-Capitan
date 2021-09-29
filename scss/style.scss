@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+html {
+    font-size: 62.5%; /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
+}
+
+
+@import "fuentes";
+@import "navegaciones";
+@import "home";
+@import "error";
+@import "productos";
+@import "pesca";
+@import "nosotros";
+@import "contacto";
+

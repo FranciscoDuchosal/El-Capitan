@@ -1,0 +1,28 @@
+/*NOSOTROS*/
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr 24.5px;
+    grid-template-areas: "uno dos"
+                        "tres cuatro";
+  }
+  
+  .nosotros h2 {
+    grid-area: uno dos;
+    color: black;
+    font-size: 2rem;
+    margin: 20px 40px;
+  }
+  
+  .nosotros img {
+    grid-area: cuatro;
+    justify-self: center;
+  }
+  
+  .nosotros p {
+    font-size: 2rem;
+    grid-area: tres;
+    color: #262626;
+    text-align: justify;
+    margin: 26px 0px 0px 40px;
+  }
