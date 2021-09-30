@@ -30,22 +30,19 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 0rem 4rem;
-}
-
-i.bi.bi-search {
-  margin: 0.5rem;
-  font-size: 2rem;
+  margin: 0rem 119rem;
 }
 
 i.bi.bi-cart4 {
   margin: 0.5rem;
   font-size: 2rem;
+  color: black;
 }
 
 i.bi.bi-person-circle {
   margin: 0.5rem;
   font-size: 2rem;
+  color: black;
 }
 
 /* NAV BAR*/
@@ -58,12 +55,16 @@ nav {
   justify-content: space-around;
 }
 
-#navbarDropdownMenuLink {
+.navbar-toggler {
+  border: 1px solid white;
+}
+
+.nav-link {
   font-size: 1.5rem;
   color: white;
 }
 
-#navbarDropdownMenuLink:hover {
+.nav-link:hover {
   color: yellow;
 }
 
@@ -207,6 +208,7 @@ footer li p a {
 
 .cards {
   margin-top: 40px;
+  width: 100%;
 }
 
 .error {

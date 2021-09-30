@@ -21,22 +21,24 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 0rem 4rem;
+    margin: 0rem 119rem;
+    
+        
 }
-i.bi.bi-search{
-    margin: 0.5rem;
-    font-size: 2rem;
-}
+
 i.bi.bi-cart4{
     margin: 0.5rem;
     font-size: 2rem;
+    color:black;
 }
 i.bi.bi-person-circle{
     margin: 0.5rem;
     font-size: 2rem;
+    color:black
 }
 
 /* NAV BAR*/
+
 
 nav{
     background-color: #262626;
@@ -46,13 +48,15 @@ nav{
     width: 100%;
     justify-content: space-around;
 }
-
-#navbarDropdownMenuLink{
+.navbar-toggler {
+    border: 1px solid white
+}
+.nav-link{
      
      font-size: 1.5rem;
-     color:white;
+     color:rgb(255, 255, 255);
 }
-#navbarDropdownMenuLink:hover{
+.nav-link:hover{
      color: yellow;
 }
 .desplegable{
@@ -60,6 +64,15 @@ nav{
     font-family: Stix two text;
 
 }
+
+
+
+
+
+
+
+
+
 
  /*FOOTER*/
 
