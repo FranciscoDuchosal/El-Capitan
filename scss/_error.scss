@@ -1,12 +1,11 @@
-.error {
+.shark {
   background-image: url(https://w0.peakpx.com/wallpaper/62/174/HD-wallpaper-shark-predator-scary-animal-shark-jaws.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 950px;
+  background-size: 100% 100%;
+  
 }
   
 .error__img {
-  border-radius: 40px 20px;
   margin-top: 300px;
   margin-left: 519px;
     
@@ -17,7 +16,7 @@
   filter: drop-shadow(0 2px 16px lightgray);
   text-decoration: none;    
   transition: all .5s;
-  margin-top: 834px;
+  margin-top: 821px;
   margin-left: 120px;
 }
 .pescadito:hover{
@@ -31,18 +30,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem auto;   
-  border-radius: 20px 40px; 
-  text-decoration: none;
-  color: black;    
+  margin: 2rem auto;    
   margin-top: -28px;
   margin-right: 194px;
   color:white;
   font-size: 1.5rem;
 }
 
-.bold {
-  font-weight: 700;
-  text-decoration: underline;
+.error a {
+  text-decoration: none;
 }
 

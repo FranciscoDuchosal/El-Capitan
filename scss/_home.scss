@@ -1,55 +1,87 @@
     /*HOME*/
 
-    .noticias{
-        margin: 5rem 0rem 4rem 8rem;
-        color:black;
+    .noticias {
+        margin: 13rem 13rem 0rem 7rem;;
+        color: black;
         font-family: Stix Two Text;
         font-size: 3rem;
+        text-align: center
+
+    }
+.carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        background-color: black;
+    }
+    .carousel-indicators {
+        margin-bottom: -3rem;
+    }
+
+    .botoncito .active {
+        background-color: black;
         
-}
-    
+    }
+    .d-block{
+        margin-left: 138px;
+    }
     .carousel {
         width: 500px;
         margin: 0 auto 2rem auto;
         margin-top: 2rem;
-}
-        /*MARCAS*/
-    
+    }
+
+    .conten {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*MARCAS*/
+
     .marcas {
-    display: grid;
-    grid-template-columns: repeat(7, auto);
-    grid-template-rows: repeat(3, auto);
-    justify-items: center;
-    align-items: center;
-    padding: 10px;
-}
-    .titulo{
-        font-family: STIX Two Text ;
+        display: grid;
+        grid-template-columns: repeat(7, auto);
+        grid-template-rows: repeat(3, auto);
+        justify-items: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-family: STIX Two Text;
         font-size: 3rem;
         margin: 10rem 1rem 2rem 8rem;
+
+    }
+
+    .card h5 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .card p {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .card a {
+        font-size: 1.5rem;
+    }
+
+    .card a:hover {
+        color: chartreuse;
+    }
+
+    .card .btn {
+        display: list-item;
+        list-style: none;
+
+    }
+
+    .cards {
+        margin-top: 40px;
+        width: 100%;
+    }
+
     
-}
-
-.card h5{
-    font-size: 2.5rem;
-    text-align: center;
-}
-.card p{
-    font-size: 1.5rem;
-    text-align: justify;
-}
-.card a{
-    font-size: 1.5rem;
-}
-.card a:hover{
-    color: chartreuse;
-}
-.card .btn {
-    display: list-item;
-    list-style: none;
-
-}
-.cards{
-    margin-top: 40px;
-    width: 100%;
-}

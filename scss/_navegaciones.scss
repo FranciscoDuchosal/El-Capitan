@@ -1,152 +1,219 @@
   /*HEADER*/
   /*LOGO Y NOMBRE*/
 
-#inicio{
-    background-image: url(../multimedia500x400/wooden-long-platform-leading-to-the-beach-under-the-cloudy-sky.jpg);
-    background-size: cover;
-}
-.logo{
-    height: 100px;
-    display: flex;
-    align-items:center;
-    font-family: Stix Two Text;
-    color:rgb(96, 73, 224);
-}
-   
-    
+  #inicio {
+      background-image: url(../multimedia500x400/wooden-long-platform-leading-to-the-beach-under-the-cloudy-sky.jpg);
+      background-size: cover;
+      
+  }
 
-
-       /*LUPA*/
-.lupa{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 0rem 119rem;
-    
-        
-}
-
-i.bi.bi-cart4{
-    margin: 0.5rem;
-    font-size: 2rem;
-    color:black;
-}
-i.bi.bi-person-circle{
-    margin: 0.5rem;
-    font-size: 2rem;
-    color:black
-}
-
-/* NAV BAR*/
-
-
-nav{
-    background-color: #262626;
-    
-}
-.navbar-nav{
-    width: 100%;
-    justify-content: space-around;
-}
-.navbar-toggler {
-    border: 1px solid white
-}
-.nav-link{
-     
-     font-size: 1.5rem;
-     color:rgb(255, 255, 255);
-}
-.nav-link:hover{
-     color: yellow;
-}
-.desplegable{
-    font-size: 1.5rem;
-    font-family: Stix two text;
-
-}
+  .logo {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      font-family: Stix Two Text;
+      color: rgb(96, 73, 224);
+  }
 
 
 
 
+  /*LUPA*/
+  .lupa {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin: 0rem 119rem;
+
+
+  }
+
+  i.bi.bi-cart4 {
+      margin: 0.5rem;
+      font-size: 2rem;
+      color: black;
+  }
+
+  i.bi.bi-person-circle {
+      margin: 0.5rem;
+      font-size: 2rem;
+      color: black
+  }
+
+  /* NAV BAR*/
+
+
+  nav {
+      background-color: #262626;
+
+  }
+
+  .navbar-nav {
+      width: 100%;
+      justify-content: space-around;
+  }
+
+  .navbar-toggler {
+      border: 1px solid white
+  }
+
+  .nav-link {
+
+      font-size: 1.5rem;
+      color: rgb(255, 255, 255);
+  }
+
+  .nav-link:hover {
+      color: yellow;
+  }
+
+  .desplegable {
+      font-size: 1.5rem;
+      font-family: Stix two text;
+
+  }
+ 
 
 
 
 
 
 
- /*FOOTER*/
 
- .footer__uno {
-    background-color: #262626;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0px 40px;
-    height: 200px;
-    margin-top: -55px;
-}
-footer{
-    background-color: #262626;
-    margin-top: 55px;
-} 
-
-footer li {
-    font-size: 2rem;
-    list-style: none;
-    color: #fff;
-    
-    
-}
-footer li p {
-    font-size: 1.5rem;
-    color: gray;
-}
-footer li p a {
-    font-size: 1.5rem;
-    color: gray;
-    text-decoration: none;
-}
-.arriba a {
-    font-size: 1.3rem;
-    color: white;
-    text-decoration: none;
-    margin: 0px 0px 0px 124px;
-}
-.copyright p {
-    font-size: 1.5rem;
-    color:rgb(252, 245, 245);
-    margin: 0px 270px;
-}
-.copyright p a {
-    font-size: 1.5rem;
-    color:rgb(233, 230, 230);
-}
+  /*FOOTER*/
 
 
-.bi-facebook:hover{
-color:  #3b5998 ;
 
-}
+  .cajita {
+      margin-left: 50px;
+      margin: auto;
+  }
 
-.bi-whatsapp:hover{
-color: #4AC959;
-}
+  .fila {
+      display: flex;
+      flex-wrap: wrap;
+  }
 
-.bi-envelope:hover{
-color:white
-}
+  ul {
+      list-style: none;
+  }
 
-.arriba a {
-font-size: 1.3rem;
-color: gray;
-text-decoration: none;
-margin: 0px 0px 0px 124px;
-}
-.copyright p {
-font-size: 1.5rem;
-color:white;
-margin: 0px 420px;
-}
-.copyright p a {
-font-size: 1.3rem;
-color:white;
-}
+  .footer {
+      background-color: #24262b;
+      padding: 10px;
+  }
+
+  .footer-col {
+      width: 25%;
+      padding: 0 15px;
+  }
+
+  .footer-col h4 {
+      font-size: 18px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+  }
+
+  .footer-col h4::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      background-color: #e91e63;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+  }
+
+  .footer-col ul li:not(:last-child) {
+      margin-bottom: 10px;
+  }
+
+  .footer-col ul li a {
+      font-size: 1.6rem;
+      text-transform: capitalize;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 300;
+      color: #bbbbbb;
+      display: block;
+      transition: all 0.3s ease;
+  }
+
+  .footer-col ul li a:hover {
+      color: #ffffff;
+      padding-left: 8px;
+  }
+
+  .horario {
+      color: #bbbbbb;
+      font-weight: 300;
+      text-transform: capitalize;
+      font-size: 1.6rem;
+  }
+
+  .footer-col .social-links a {
+      display: inline-block;
+      font-size: 2rem;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255, 255, 255, 0.2);
+      margin: 0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #ffffff;
+      transition: all 0.5s ease;
+  }
+
+  .footer-col .social-links a:hover {
+      color: #24262b;
+      background-color: #ffffff;
+  }
+
+  .arriba a {
+      font-size: 1.5rem;
+      color: gray;
+      text-decoration: none;
+      margin: 0px 0px 0px 20px;
+  }
+
+  .arriba a:hover {
+      color: #ffffff
+  }
+
+ 
+
+  .copyright p {
+      font-size: 1rem;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: auto;
+
+  }
+
+  .copyright p a {
+      font-size: 1rem;
+      color: white;
+      text-decoration: none;
+
+  }
+  /*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
+  

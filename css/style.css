@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,500;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -74,97 +75,174 @@ nav {
 }
 
 /*FOOTER*/
-.footer__uno {
-  background-color: #262626;
+.cajita {
+  margin-left: 50px;
+  margin: auto;
+}
+
+.fila {
   display: flex;
-  justify-content: space-around;
-  padding: 10px 0px 40px;
-  height: 200px;
-  margin-top: -55px;
+  flex-wrap: wrap;
 }
 
-footer {
-  background-color: #262626;
-  margin-top: 55px;
-}
-
-footer li {
-  font-size: 2rem;
+ul {
   list-style: none;
-  color: #fff;
 }
 
-footer li p {
-  font-size: 1.5rem;
-  color: gray;
+.footer {
+  background-color: #24262b;
+  padding: 10px;
 }
 
-footer li p a {
-  font-size: 1.5rem;
-  color: gray;
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  color: #ffffff;
   text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.horario {
+  color: #bbbbbb;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  font-size: 2rem;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
 }
 
 .arriba a {
-  font-size: 1.3rem;
-  color: white;
-  text-decoration: none;
-  margin: 0px 0px 0px 124px;
-}
-
-.copyright p {
   font-size: 1.5rem;
-  color: #fcf5f5;
-  margin: 0px 270px;
-}
-
-.copyright p a {
-  font-size: 1.5rem;
-  color: #e9e6e6;
-}
-
-.bi-facebook:hover {
-  color: #3b5998;
-}
-
-.bi-whatsapp:hover {
-  color: #4AC959;
-}
-
-.bi-envelope:hover {
-  color: white;
-}
-
-.arriba a {
-  font-size: 1.3rem;
   color: gray;
   text-decoration: none;
-  margin: 0px 0px 0px 124px;
+  margin: 0px 0px 0px 20px;
+}
+
+.arriba a:hover {
+  color: #ffffff;
 }
 
 .copyright p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
-  margin: 0px 420px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
 }
 
 .copyright p a {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: white;
+  text-decoration: none;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
 }
 
 /*HOME*/
 .noticias {
-  margin: 5rem 0rem 4rem 8rem;
+  margin: 13rem 13rem 0rem 7rem;
   color: black;
   font-family: Stix Two Text;
   font-size: 3rem;
+  text-align: center;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-indicators {
+  margin-bottom: -3rem;
+}
+
+.botoncito .active {
+  background-color: black;
+}
+
+.d-block {
+  margin-left: 138px;
 }
 
 .carousel {
   width: 500px;
   margin: 0 auto 2rem auto;
   margin-top: 2rem;
+}
+
+.conten {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*MARCAS*/
@@ -211,15 +289,13 @@ footer li p a {
   width: 100%;
 }
 
-.error {
+.shark {
   background-image: url(https://w0.peakpx.com/wallpaper/62/174/HD-wallpaper-shark-predator-scary-animal-shark-jaws.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 950px;
+  background-size: 100% 100%;
 }
 
 .error__img {
-  border-radius: 40px 20px;
   margin-top: 300px;
   margin-left: 519px;
 }
@@ -229,7 +305,7 @@ footer li p a {
   filter: drop-shadow(0 2px 16px lightgray);
   text-decoration: none;
   transition: all .5s;
-  margin-top: 834px;
+  margin-top: 821px;
   margin-left: 120px;
 }
 
@@ -244,18 +320,14 @@ footer li p a {
   justify-content: center;
   align-items: center;
   margin: 2rem auto;
-  border-radius: 20px 40px;
-  text-decoration: none;
-  color: black;
   margin-top: -28px;
   margin-right: 194px;
   color: white;
   font-size: 1.5rem;
 }
 
-.bold {
-  font-weight: 700;
-  text-decoration: underline;
+.error a {
+  text-decoration: none;
 }
 
 /*PRODUCTOS*/
@@ -267,6 +339,77 @@ footer li p a {
 .productos div div {
   margin: 0 auto;
   border: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px;
+}
+
+.container .card {
+  width: 330px;
+  height: 380px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card h4 {
+  margin-top: 10px;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.container .card h4 {
+  font-weight: 600;
+}
+
+.container .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+}
+
+.cardPesca {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-content: space-evenly;
+}
+
+.cardOutdoor {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-content: space-evenly;
+}
+
+.cardIndumentaria {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-content: space-evenly;
 }
 
 /*NOSOTROS*/
@@ -305,6 +448,7 @@ footer li p a {
   padding: 30px;
   margin: auto;
   margin-top: 65px;
+  margin-bottom: 30px;
   border-radius: 4px;
   font-family: "STIX Two Text";
   color: #fff;
@@ -362,5 +506,84 @@ footer li p a {
   margin-top: 10px;
   display: flex;
   align-items: center;
+}
+
+.contai {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contact {
+  background-color: #ececec;
+  padding: 4% 0;
+}
+
+.contact-form {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.dudas {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.dudasColor {
+  color: blue;
+}
+
+.info {
+  font-size: 1.3rem;
+}
+
+/*MODAL*/
+.botonito {
+  display: flex;
+  align-content: center;
+  background-color: gray;
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.botonito:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  background-color: #0d6efd;
+}
+
+.modal-body {
+  font-size: 2rem;
+  color: white;
+  background-color: grey;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    padding: 20% 0;
+  }
+  .contact-form {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+  iframe {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
