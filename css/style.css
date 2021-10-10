@@ -47,13 +47,14 @@ i.bi.bi-person-circle {
 }
 
 /* NAV BAR*/
-nav {
-  background-color: #262626;
+.navbar {
+  background-color: #24262b;
 }
 
 .navbar-nav {
   width: 100%;
   justify-content: space-around;
+  background-color: #24262b;
 }
 
 .navbar-toggler {
@@ -90,7 +91,7 @@ ul {
 }
 
 .footer {
-  background-color: #24262b;
+  background-color: black;
   padding: 10px;
 }
 
@@ -214,37 +215,40 @@ ul {
   text-align: center;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  background-color: black;
-}
-
-.carousel-indicators {
-  margin-bottom: -3rem;
-}
-
-.botoncito .active {
-  background-color: black;
-}
-
-.d-block {
-  margin-left: 138px;
-}
-
 .carousel {
   width: 500px;
   margin: 0 auto 2rem auto;
-  margin-top: 2rem;
 }
 
-.conten {
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+/*
+.carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        background-color: black;
+    }
+    .carousel-indicators {
+        margin-bottom: -3rem;
+    }
 
+    .botoncito .active {
+        background-color: black;
+        
+    }
+    .d-block{
+        margin-left: 138px;
+    }
+    .carousel {
+        width: 500px;
+        margin: 0 auto 2rem auto;
+        margin-top: 2rem;
+    }
+
+    .conten {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }*/
 /*MARCAS*/
 .marcas {
   display: grid;
@@ -261,32 +265,70 @@ ul {
   margin: 10rem 1rem 2rem 8rem;
 }
 
-.card h5 {
-  font-size: 2.5rem;
-  text-align: center;
-}
-
-.card p {
-  font-size: 1.5rem;
-  text-align: justify;
-}
-
-.card a {
-  font-size: 1.5rem;
-}
-
-.card a:hover {
-  color: chartreuse;
-}
-
-.card .btn {
-  display: list-item;
-  list-style: none;
-}
-
-.cards {
-  margin-top: 40px;
+/*CARDS*/
+.container {
   width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px;
+}
+
+.container .card {
+  width: 330px;
+  height: 380px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card h4 {
+  margin-top: 10px;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.container .card h4 {
+  font-weight: 600;
+}
+
+.container .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .marcas {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(7, auto);
+  }
+}
+
+@media (max-width: 570px) {
+  .marcas {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(11, auto);
+  }
 }
 
 .shark {
@@ -330,15 +372,55 @@ ul {
   text-decoration: none;
 }
 
-/*PRODUCTOS*/
-.productos {
-  padding: 1rem 0;
-  margin-top: 2rem;
+.containerCard {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px;
 }
 
-.productos div div {
-  margin: 0 auto;
-  border: none;
+.containerCard .card {
+  width: 330px;
+  height: 380px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.containerCard .card h4 {
+  margin-top: 10px;
+}
+
+.containerCard .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.containerCard .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.containerCard .card h4 {
+  font-weight: 600;
+}
+
+.containerCard .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.containerCard .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+  font-size: 1.5rem;
 }
 
 .container {
@@ -389,27 +471,121 @@ ul {
   font-weight: 500;
   text-decoration: none;
   color: #3498db;
+  font-size: 1.5rem;
 }
 
-.cardPesca {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(3, auto);
-  justify-content: space-evenly;
+@media (max-width: 640px) {
+  .container {
+    width: 80%;
+  }
 }
 
-.cardOutdoor {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(3, auto);
-  justify-content: space-evenly;
+@media (max-width: 500px) {
+  .container {
+    width: 50%;
+  }
 }
 
-.cardIndumentaria {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(3, auto);
-  justify-content: space-evenly;
+.containerCard {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px;
+}
+
+.containerCard .card {
+  width: 330px;
+  height: 380px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.containerCard .card h4 {
+  margin-top: 10px;
+}
+
+.containerCard .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.containerCard .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.containerCard .card h4 {
+  font-weight: 600;
+}
+
+.containerCard .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.containerCard .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+  font-size: 1.5rem;
+}
+
+.containerCard {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px;
+}
+
+.containerCard .card {
+  width: 330px;
+  height: 380px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.containerCard .card h4 {
+  margin-top: 10px;
+}
+
+.containerCard .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.containerCard .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.containerCard .card h4 {
+  font-weight: 600;
+}
+
+.containerCard .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.containerCard .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+  font-size: 1.5rem;
 }
 
 /*NOSOTROS*/

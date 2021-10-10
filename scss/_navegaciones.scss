@@ -43,14 +43,15 @@
   /* NAV BAR*/
 
 
-  nav {
-      background-color: #262626;
+ .navbar {
+      background-color: #24262b;
 
   }
 
   .navbar-nav {
       width: 100%;
       justify-content: space-around;
+      background-color:#24262b;
   }
 
   .navbar-toggler {
@@ -99,7 +100,7 @@
   }
 
   .footer {
-      background-color: #24262b;
+      background-color: black;
       padding: 10px;
   }
 
