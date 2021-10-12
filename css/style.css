@@ -26,26 +26,6 @@ html {
   color: #6049e0;
 }
 
-/*LUPA*/
-.lupa {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin: 0rem 119rem;
-}
-
-i.bi.bi-cart4 {
-  margin: 0.5rem;
-  font-size: 2rem;
-  color: black;
-}
-
-i.bi.bi-person-circle {
-  margin: 0.5rem;
-  font-size: 2rem;
-  color: black;
-}
-
 /* NAV BAR*/
 .navbar {
   background-color: #24262b;
@@ -340,13 +320,13 @@ ul {
 }
 
 .shark {
-  background-image: url(https://w0.peakpx.com/wallpaper/62/174/HD-wallpaper-shark-predator-scary-animal-shark-jaws.jpg);
+  background-image: url(../multimedia500x400/sharkfondo.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .error__img {
-  margin-top: 300px;
+  margin-top: 130px;
   margin-left: 519px;
 }
 
@@ -355,7 +335,7 @@ ul {
   filter: drop-shadow(0 2px 16px lightgray);
   text-decoration: none;
   transition: all .5s;
-  margin-top: 821px;
+  margin-top: 573px;
   margin-left: 120px;
 }
 
