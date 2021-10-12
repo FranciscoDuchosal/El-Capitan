@@ -73,6 +73,12 @@
       font-family: Stix two text;
 
   }
+  .navbar-toggler-icon{
+    background-image: url(../multimedia500x400/fishing-hook.png);
+}
+.navbar-toggler{
+    background-color: white;
+}
  
 
 
@@ -204,6 +210,11 @@
       text-decoration: none;
 
   }
+
+ 
+
+
+
   /*responsive*/
 @media(max-width: 767px){
     .footer-col{

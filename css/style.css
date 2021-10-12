@@ -75,6 +75,14 @@ i.bi.bi-person-circle {
   font-family: Stix two text;
 }
 
+.navbar-toggler-icon {
+  background-image: url(../multimedia500x400/fishing-hook.png);
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
 /*FOOTER*/
 .cajita {
   margin-left: 50px;
@@ -372,7 +380,7 @@ ul {
   text-decoration: none;
 }
 
-.containerCard {
+.container {
   width: 100%;
   max-width: 1200px;
   display: flex;
@@ -381,7 +389,7 @@ ul {
   margin: 100px;
 }
 
-.containerCard .card {
+.container .card {
   width: 330px;
   height: 380px;
   border-radius: 8px;
@@ -392,31 +400,31 @@ ul {
   transition: all 0.25s;
 }
 
-.containerCard .card h4 {
+.container .card h4 {
   margin-top: 10px;
 }
 
-.containerCard .card:hover {
+.container .card:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.containerCard .card img {
+.container .card img {
   width: 330px;
   height: 220px;
 }
 
-.containerCard .card h4 {
+.container .card h4 {
   font-weight: 600;
 }
 
-.containerCard .card p {
+.container .card p {
   padding: 0 1rem;
   font-size: 16px;
   font-weight: 300;
 }
 
-.containerCard .card a {
+.container .card a {
   font-weight: 500;
   text-decoration: none;
   color: #3498db;
@@ -474,19 +482,7 @@ ul {
   font-size: 1.5rem;
 }
 
-@media (max-width: 640px) {
-  .container {
-    width: 80%;
-  }
-}
-
-@media (max-width: 500px) {
-  .container {
-    width: 50%;
-  }
-}
-
-.containerCard {
+.container {
   width: 100%;
   max-width: 1200px;
   display: flex;
@@ -495,7 +491,7 @@ ul {
   margin: 100px;
 }
 
-.containerCard .card {
+.container .card {
   width: 330px;
   height: 380px;
   border-radius: 8px;
@@ -506,38 +502,38 @@ ul {
   transition: all 0.25s;
 }
 
-.containerCard .card h4 {
+.container .card h4 {
   margin-top: 10px;
 }
 
-.containerCard .card:hover {
+.container .card:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.containerCard .card img {
+.container .card img {
   width: 330px;
   height: 220px;
 }
 
-.containerCard .card h4 {
+.container .card h4 {
   font-weight: 600;
 }
 
-.containerCard .card p {
+.container .card p {
   padding: 0 1rem;
   font-size: 16px;
   font-weight: 300;
 }
 
-.containerCard .card a {
+.container .card a {
   font-weight: 500;
   text-decoration: none;
   color: #3498db;
   font-size: 1.5rem;
 }
 
-.containerCard {
+.container {
   width: 100%;
   max-width: 1200px;
   display: flex;
@@ -546,7 +542,7 @@ ul {
   margin: 100px;
 }
 
-.containerCard .card {
+.container .card {
   width: 330px;
   height: 380px;
   border-radius: 8px;
@@ -557,31 +553,31 @@ ul {
   transition: all 0.25s;
 }
 
-.containerCard .card h4 {
+.container .card h4 {
   margin-top: 10px;
 }
 
-.containerCard .card:hover {
+.container .card:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.containerCard .card img {
+.container .card img {
   width: 330px;
   height: 220px;
 }
 
-.containerCard .card h4 {
+.container .card h4 {
   font-weight: 600;
 }
 
-.containerCard .card p {
+.container .card p {
   padding: 0 1rem;
   font-size: 16px;
   font-weight: 300;
 }
 
-.containerCard .card a {
+.container .card a {
   font-weight: 500;
   text-decoration: none;
   color: #3498db;
