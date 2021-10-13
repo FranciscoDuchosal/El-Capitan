@@ -23,10 +23,10 @@
   /* NAV BAR*/
 
 
- .navbar {
+ /*.navbar {
       background-color: #24262b;
 
-  }
+  }*/
 
   .navbar-nav {
       width: 100%;
@@ -34,9 +34,7 @@
       background-color:#24262b;
   }
 
-  .navbar-toggler {
-      border: 1px solid white
-  }
+ 
 
   .nav-link {
 
@@ -44,7 +42,7 @@
       color: rgb(255, 255, 255);
   }
 
-  .nav-link:hover {
+  .navbar-dark .navbar-nav .nav-link:hover{
       color: yellow;
   }
 
@@ -53,13 +51,7 @@
       font-family: Stix two text;
 
   }
-  .navbar-toggler-icon{
-    background-image: url(../multimedia500x400/fishing-hook.png);
-}
-.navbar-toggler{
-    background-color: white;
-}
- 
+
 
 /*WHATSAPP*/
 
