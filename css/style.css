@@ -63,6 +63,56 @@ html {
   background-color: white;
 }
 
+/*WHATSAPP*/
+.wa-splmn-chat-btn-offset {
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999 !important;
+}
+
+.wa-chat-btn-fixed {
+  position: fixed;
+}
+
+.wa-chat-btn-base-cta-with-icon .wa-chat-button-cta-text {
+  background-color: #fff;
+  padding: 4px 10px;
+  margin: 0 8px;
+  border-radius: 4px;
+  color: #2c2c2c;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 #d3d3d3;
+}
+
+.wa-chat-button-cta-text {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.wa-chat-btn-base-cta-with-icon img {
+  border-radius: 100%;
+  box-shadow: 0 0 5px 0 #d3d3d3;
+  cursor: pointer;
+}
+
+.wa-chat-btn-fixed img {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.wa-chat-btn-icon-image-only {
+  width: 54px;
+  height: 54px;
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+}
+
 /*FOOTER*/
 .cajita {
   margin-left: 50px;
