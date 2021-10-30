@@ -26,11 +26,15 @@ html {
   color: #6049e0;
 }
 
+.logo h1 {
+  color: #24262b;
+}
+
 /* NAV BAR*/
 .navbar-nav {
   width: 100%;
   justify-content: space-around;
-  background-color: #24262b;
+  background-color: b #24262b;
 }
 
 .nav-link {
@@ -39,7 +43,7 @@ html {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: yellow;
+  color: #ffffff;
 }
 
 .desplegable {
@@ -117,7 +121,7 @@ ul {
 }
 
 .footer {
-  background-color: black;
+  background-color: #24262b;
   padding: 10px;
 }
 
@@ -229,6 +233,17 @@ ul {
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
+  }
+}
+
+@media (max-width: 327px) {
+  .logo h1 {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
 }
 
@@ -410,7 +425,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 100px;
+  margin: auto;
 }
 
 .container .card {
@@ -461,7 +476,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 100px;
+  margin: auto;
 }
 
 .container .card {
@@ -512,7 +527,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 100px;
+  margin: auto;
 }
 
 .container .card {
@@ -563,7 +578,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 100px;
+  margin: auto;
 }
 
 .container .card {
@@ -698,11 +713,11 @@ ul {
 /*CONTACTO*/
 .contenedor {
   box-sizing: border-box;
-  background-color: #decba4;
+  background-color: #24262b;
   width: 400px;
   padding: 30px;
   margin: auto;
-  margin-top: 65px;
+  margin-top: 40px;
   margin-bottom: 30px;
   border-radius: 4px;
   font-family: "STIX Two Text";
@@ -720,7 +735,7 @@ ul {
 
 .control {
   width: 100%;
-  background-color: blanchedalmond;
+  background-color: #24262b;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 20px;
@@ -736,7 +751,7 @@ ul {
   border: none;
   color: white;
   text-transform: uppercase;
-  background: linear-gradient(to left top, #3e5151, #decba4);
+  background: linear-gradient(to left top, #24262b, #3e5151);
   font-size: 2rem;
 }
 
@@ -755,7 +770,7 @@ ul {
 }
 
 .terminos {
-  color: black;
+  color: #fff;
   border: 2px solid #c2b395;
   border-radius: 4px;
   margin-top: 10px;

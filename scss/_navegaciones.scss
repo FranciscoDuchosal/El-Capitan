@@ -13,9 +13,14 @@
       align-items: center;
       font-family: Stix Two Text;
       color: rgb(96, 73, 224);
+
+      h1{
+        color:#24262b
+      }
   }
 
-
+  
+ 
 
 
   
@@ -28,8 +33,9 @@
   .navbar-nav {
       width: 100%;
       justify-content: space-around;
-      background-color:#24262b;
+      background-color:b#24262b;
   }
+
 
  
 
@@ -40,7 +46,7 @@
   }
 
   .navbar-dark .navbar-nav .nav-link:hover{
-      color: yellow;
+      color: #ffffff;
   }
 
   .desplegable {
@@ -122,7 +128,7 @@
   }
 
   .footer {
-      background-color: black;
+      background-color: #24262b;
       padding: 10px;
          
   }
@@ -245,4 +251,13 @@
   }
   }
   
-  
+  @media(max-width: 327px){
+      .logo h1{
+          display: none;
+      }
+      .logo{
+          display: flex;
+          align-content: center;
+          justify-content: center;
+      }
+    }
