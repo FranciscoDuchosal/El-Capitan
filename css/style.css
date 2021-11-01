@@ -635,20 +635,21 @@ ul {
 .contenedorNosotros {
   width: 55%;
   float: right;
-  background-color: #d39393;
+  background-color: #24262b;
   padding: 140px;
-  box-shadow: 13px 12px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 13px 12px 8px #0000004d;
 }
 
 .contenedorNosotros h1 {
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: 900;
+  color: #ffff;
 }
 
 .text {
   font-size: 13px;
-  color: #545454;
+  color: #ffff;
   line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
@@ -663,7 +664,7 @@ ul {
   padding: 8px;
   width: 200px;
   background-color: #00999c;
-  color: white;
+  color: #24262b;
   cursor: pointer;
 }
 
@@ -776,6 +777,39 @@ ul {
   margin-top: 10px;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 400px) {
+  .contenedor {
+    width: 50%;
+    height: 50%;
+  }
+  .contenedor h1 {
+    font-size: 1.5rem;
+  }
+  .boton {
+    height: 24px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .contenedor h1 {
+    font-size: 1.3rem;
+  }
+  legend {
+    font-size: 0.7rem;
+  }
+  .control {
+    font-size: 1rem;
+    margin-block: -1px;
+  }
+  .apellidoContacto {
+    display: none;
+  }
+  .nombreContacto {
+    margin-bottom: -11px;
+  }
 }
 
 .contai {
