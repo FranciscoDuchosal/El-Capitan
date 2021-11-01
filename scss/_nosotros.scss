@@ -74,10 +74,23 @@
       color: white;
   }    
       
-  
   .skills button{
       font-size: 19px;
       padding: 5px;
       width: 160px;
+  }
+}
+@media screen and (max-width:340px){
+  .about h1{
+      font-size: 1rem;
+  }
+  .text{
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    line-height: 10px;
+  }
+  .contenedorNosotros {
+    width: 122%;
+    margin-top: 76px;
   }
 }

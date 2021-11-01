@@ -247,49 +247,6 @@ ul {
   }
 }
 
-/*HOME*/
-.noticias {
-  margin: 13rem 13rem 0rem 7rem;
-  color: black;
-  font-family: Stix Two Text;
-  font-size: 3rem;
-  text-align: center;
-}
-
-.carousel {
-  width: 500px;
-  margin: 0 auto 2rem auto;
-}
-
-/*
-.carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        background-color: black;
-    }
-    .carousel-indicators {
-        margin-bottom: -3rem;
-    }
-
-    .botoncito .active {
-        background-color: black;
-        
-    }
-    .d-block{
-        margin-left: 138px;
-    }
-    .carousel {
-        width: 500px;
-        margin: 0 auto 2rem auto;
-        margin-top: 2rem;
-    }
-
-    .conten {
-        width: 100%;
-        max-width: 1200px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }*/
 /*MARCAS*/
 .marcas {
   display: grid;
@@ -711,6 +668,21 @@ ul {
   }
 }
 
+@media screen and (max-width: 340px) {
+  .about h1 {
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    line-height: 10px;
+  }
+  .contenedorNosotros {
+    width: 122%;
+    margin-top: 76px;
+  }
+}
+
 /*CONTACTO*/
 .contenedor {
   box-sizing: border-box;
@@ -809,6 +781,12 @@ ul {
   }
   .nombreContacto {
     margin-bottom: -11px;
+  }
+}
+
+@media (max-width: 260px) {
+  .contenedor h1 {
+    font-size: 0.7rem;
   }
 }
 
